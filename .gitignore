@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+# .terraform.lock.hcl is committed intentionally
+
+# Temporary analysis files
+modules.json
+tfstate.json
+tfplan.txt
+
+# OS
+.DS_Store
